@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    font-family: "Robot", sans-serif;
+}
+.container-one {
+    background-color: #1F2937;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container-one .header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    float: left;
+    padding-top: 10px;
+}
+
+.header-links{
+    float: right;
+    display: flex;
+    size: 18px;
+    color: #e5e7eb;
+    padding: 10px;
+}
+
+.header-links p{
+    margin: 5px;
+}
+
+
+.hero-main{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    clear: both;
+    word-wrap: break-word;s
+}
+
+.hero-subtext{
+    size: 18px;
+    color: #e5e7eb;
+    word-wrap: break-word;
+}
+
+.container-one img{
+    height: 180px;
+    width: 540px;
+}
+
+
