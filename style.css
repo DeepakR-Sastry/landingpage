@@ -6,6 +6,7 @@
     background-color: #1F2937;
     padding-left: 120px;
     padding-right: 120px;
+    padding-bottom: 120px;
 }
 
 .container-one .header-logo{
@@ -34,7 +35,7 @@
     font-weight: bolder;
     color: #f9faf8;
     clear: both;
-    word-wrap: break-word;s
+    word-wrap: break-word;
 }
 
 .hero-subtext{
@@ -44,8 +45,130 @@
 }
 
 .container-one img{
-    height: 180px;
+    height: 240px;
     width: 540px;
+    float: right;
+}
+
+.hero{
+    display: flex;
+    clear: both;
+}
+
+.container-one img{
+    padding-left: 55%;
+}
+
+.hero-subtext{
+    clear: both;
+    padding-top: 0;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    font-size: 20px;
+    color: white;
+    border-radius: 12px;
+    border: #1f2937 solid;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
+.container-two{
+    padding-top: 64px;
+    padding-bottom: 100px;
+}
+
+.info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.container-two img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.information-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.flex-item{
+    display: flex;
+    margin: 10px;
+}
+
+figcaption{
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.container-three{
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    word-wrap: normal;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.author{
+    padding-left: 1800px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+
+.container-four{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footer{
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 0px auto;
+    padding-left: 200px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 20px;
+    color: #e5e7eb;
+    border-radius: 14px;
+    padding-right: 200px;;
+}
+
+.container-four button{
+    float: right;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: solid #f9faf8;
+    border-width: 2px;
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.sign-up{
+    font-size: 16px;
+}
